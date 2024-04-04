@@ -1,22 +1,19 @@
-# create-svelte
+# Bonfire-Website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+TODO:
+- Finish the header part:
+  - [ ] Add some placeholder in "AccountMenu"
+  - [ ] Modify nav text and logo
+- Finish content part:
+  - [ ] Make a template for post
+- Finish footer part:
+  - [ ] Make some template for DMs 
 
-## Creating a project
+## Reminders
 
-If you're seeing this, you've probably already done this step. Congrats!
+After cloned, type `npm install` (or `pnpm install` or `yarn`)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To start a development server:
 
 ```bash
 npm run dev
@@ -36,3 +33,5 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+Powered by [`Svelte`](https://svelte.dev/).
