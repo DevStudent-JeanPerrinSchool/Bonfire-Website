@@ -1,0 +1,23 @@
+/* Source Sans 3 (Pro), Average Sans & Work Sans Import */
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --content-bg: #1100000D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: .25s;
+}
+
+a { text-decoration: none; }
+
+@media (prefers-color-scheme: dark) {
+    body { background-color: #000305; }
+    a, p { color: #F1F8FE; } 
+}
+@media (prefers-color-scheme: light) {
+    body { background-color: #FAFDFF; }
+    a, p { color: #01080E; } 
+}
